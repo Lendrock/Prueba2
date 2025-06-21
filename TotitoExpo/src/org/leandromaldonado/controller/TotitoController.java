@@ -33,8 +33,8 @@ public class TotitoController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
-            circleImage = new Image(getClass().getResourceAsStream("/org/leandromaldonado/images/circle.png"));
-            crossImage = new Image(getClass().getResourceAsStream("/org/leandromaldonado/images/X.png")); // Cargar la imagen para la X
+            circleImage = new Image(getClass().getResourceAsStream("/org/leandromaldonado/image/circle.png"));
+            crossImage = new Image(getClass().getResourceAsStream("/org/leandromaldonado/image/X.png")); // Cargar la imagen para la X
         } catch (Exception e) {
             System.err.println("Error loading images: " + e.getMessage());
             // Considera mostrar un mensaje de error al usuario si las imágenes no cargan
