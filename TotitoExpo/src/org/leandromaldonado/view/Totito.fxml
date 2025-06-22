@@ -17,7 +17,7 @@
             <Font name="Microsoft New Tai Lue" size="45.0" />
          </font>
       </Text>
-      <Button layoutX="346.0" layoutY="664.0" mnemonicParsing="false" onAction="#restartGame" text="Restart">
+      <Button layoutX="346.0" layoutY="664.0" mnemonicParsing="false" onAction="#reiniciarJuego" text="Restart">
          <styleClass>
             <String fx:value="subtitulos-arcade" />
             <String fx:value="botones-arcade" />
@@ -36,55 +36,55 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button fx:id="button1" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css">
+                  <Button fx:id="btn1" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
                         <String fx:value="player-x-image" />
                      </styleClass></Button>
-                  <Button fx:id="button2" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="1">
+                  <Button fx:id="btn2" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="1">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
                         <String fx:value="player-x-image" />
                      </styleClass></Button>
-                  <Button fx:id="button3" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="2">
+                  <Button fx:id="btn3" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="2">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
                         <String fx:value="player-x-image" />
                      </styleClass></Button>
-                  <Button fx:id="button4" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.rowIndex="1">
+                  <Button fx:id="btn4" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.rowIndex="1">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
                         <String fx:value="player-x-image" />
                      </styleClass></Button>
-                  <Button fx:id="button5" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <Button fx:id="btn5" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
                         <String fx:value="player-x-image" />
                      </styleClass></Button>
-                  <Button fx:id="button6" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <Button fx:id="btn6" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
                         <String fx:value="player-x-image" />
                      </styleClass></Button>
-                  <Button fx:id="button7" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.rowIndex="2">
+                  <Button fx:id="btn7" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.rowIndex="2">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
                         <String fx:value="player-x-image" />
                      </styleClass></Button>
-                  <Button fx:id="button8" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <Button fx:id="btn8" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
                         <String fx:value="player-x-image" />
                      </styleClass></Button>
-                  <Button fx:id="button9" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Button fx:id="btn9" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@../resource/totitoEstilo.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <styleClass>
                         <String fx:value="game-cell-button" />
                         <String fx:value="player-0-image" />
