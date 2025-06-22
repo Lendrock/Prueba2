@@ -4,7 +4,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 */
 /* 
     Created on : 3 jun 2025, 10:31:21
-    Author     : informatica
+    Author     : Lendrock
 */
 
  /* neon_image_integration.css */
@@ -51,18 +51,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 .game-cell-button:hover {
     -fx-background-color: #1a1a2e; /* Slightly lighter on hover */
     -fx-border-color: #00ffff; /* Brighter aqua border on hover */
-    -fx-effect: innershadow(gaussian, rgba(0, 255, 255, 0.3), 15, 0.6, 0, 0),
-                dropshadow(gaussian, rgba(0, 255, 255, 0.1), 5, 0.5, 0, 0);
 }
-
 .game-cell-button:pressed {
     -fx-background-color: #05050f; /* Darker when pressed */
     -fx-border-color: #9900ff; /* Purple flash on press */
     -fx-effect: innershadow(gaussian, rgba(153, 0, 255, 0.5), 20, 0.7, 0, 0);
 }
-
-
-/* --- Buttons (e.g., "Jugador vs CPU", "Restart", "Jugador vs. Jugador") --- */
 
 .subtitulos-arcade { 
     -fx-font-size: 24px; 
@@ -75,9 +69,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-font-family: "Copperplate Gothic Bold", monospace; 
     -fx-font-size: 18px; 
     -fx-font-weight: bold; 
-    -fx-text-fill: #ffffff; /* Blanco */ 
+    -fx-text-fill: #ffffff; 
     -fx-background-color: linear-gradient(to bottom, #3a0ca3, #1c096c); /* Fondo morado oscuro */ 
-    -fx-border-color: #0074e8; /* Borde azul brillante */ 
+    -fx-border-color: #0074e8; 
     -fx-border-width: 3px; 
     -fx-border-radius: 0; 
     -fx-background-radius: 0; 
@@ -86,16 +80,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 } 
 
 .botones-arcade:hover { 
-
     -fx-background-color: #5f27cd; /* Morado claro */ 
-
     -fx-cursor: hand; 
-
 } 
+
 .botones-arcade:pressed { 
-
     -fx-background-color: #0b054a; /* Azul muy oscuro */ 
-
 } 
 
 .action-button:hover {
@@ -112,15 +102,3 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.9), 5, 0.6, 0, 0); /* Intense, focused glow */
 }
 
-/* --- Scoreboard / Info Area (example) --- */
-.scoreboard {
-    -fx-background-color: rgba(10, 10, 20, 0.6); /* Very dark, semi-transparent */
-    -fx-border-color: rgba(0, 255, 255, 0.2); /* Subtle aqua border */
-    -fx-border-width: 1px;
-    -fx-border-radius: 5px;
-    -fx-padding: 15px;
-    -fx-text-fill: #a0a0a0; /* Desaturated text for data */
-    -fx-font-family: "Consolas", "Monospace"; /* Monospace for a data-display feel */
-    -fx-font-size: 16px;
-    -fx-effect: innershadow(gaussian, rgba(0, 255, 255, 0.05), 10, 0.5, 0, 0);
-}
