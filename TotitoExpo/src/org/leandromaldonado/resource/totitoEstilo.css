@@ -7,15 +7,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : Lendrock
 */
 
- /* neon_image_integration.css */
-
-/* --- General Background and Scene --- */
 .root {
     -fx-background-color: #00000a; /* Extremely dark blue-black for maximum contrast with neon */
     -fx-effect: innershadow(gaussian, rgba(204, 0, 255, 0.05), 50, 0.5, 0, 0); /* Very subtle, deep purple inner glow */
 }
 
-/* --- Title Styling (e.g., for a Label or Text) --- */
 .titulos-arcade { 
     -fx-font-size: 48px; 
     -fx-text-fill: yellow; 
@@ -24,7 +20,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-font-weight: bold; 
 } 
 
-/* --- Tic-Tac-Toe Grid Container (e.g., for a GridPane) --- */
 .game-grid {
     -fx-background-color: rgba(0, 0, 15, 0.7); /* Even darker, almost black grid background */
     -fx-border-color: linear-gradient(to right, #00cccc, #6600cc, #ff0066); /* Teal to deep purple to fuchsia border */
@@ -36,7 +31,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-effect: dropshadow(gaussian, rgba(0, 204, 204, 0.1), 30, 0.8, 0, 0); /* Very subtle teal glow for the grid */
 }
 
-/* --- Game Cell Buttons (Buttons inside the grid) --- */
 .game-cell-button {
     -fx-background-color: #0d0d1a; /* Very dark, almost black for cells */
     -fx-border-color: rgba(0, 255, 255, 0.15); /* Very subtle aqua border */
@@ -52,6 +46,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-background-color: #1a1a2e; /* Slightly lighter on hover */
     -fx-border-color: #00ffff; /* Brighter aqua border on hover */
 }
+
 .game-cell-button:pressed {
     -fx-background-color: #05050f; /* Darker when pressed */
     -fx-border-color: #9900ff; /* Purple flash on press */
@@ -64,8 +59,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-font-family: "Copperplate Gothic Bold", monospace; 
     -fx-effect: dropshadow(gaussian, darkblue, 3, 0.3, 1, 1); 
 } 
-.botones-arcade { 
 
+.botones-arcade { 
     -fx-font-family: "Copperplate Gothic Bold", monospace; 
     -fx-font-size: 18px; 
     -fx-font-weight: bold; 
@@ -76,29 +71,28 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-border-radius: 0; 
     -fx-background-radius: 0; 
     -fx-effect: dropshadow(gaussian, black, 4, 0.5, 1, 1); 
-
 } 
 
 .botones-arcade:hover { 
-    -fx-background-color: #5f27cd; /* Morado claro */ 
+    -fx-background-color: #5f27cd; 
     -fx-cursor: hand; 
 } 
 
 .botones-arcade:pressed { 
-    -fx-background-color: #0b054a; /* Azul muy oscuro */ 
+    -fx-background-color: #0b054a; 
 } 
 
 .action-button:hover {
-    -fx-background-color: linear-gradient(to right, #444488, #2a2a4d); /* Slightly lighter on hover */
+    -fx-background-color: linear-gradient(to right, #444488, #2a2a4d); 
     -fx-text-fill: #ffffff;
-    -fx-border-color: linear-gradient(to right, #33ffff, #cc33ff); /* Brighter border on hover */
-    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.6), 15, 0.7, 0, 0); /* More intense aqua glow */
+    -fx-border-color: linear-gradient(to right, #33ffff, #cc33ff); 
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.6), 15, 0.7, 0, 0); 
 }
 
 .action-button:pressed {
-    -fx-background-color: linear-gradient(to right, #222244, #0d0d1e); /* Darker when pressed */
+    -fx-background-color: linear-gradient(to right, #222244, #0d0d1e); 
     -fx-text-fill: #cccccc;
     -fx-border-color: linear-gradient(to right, #00aaaa, #6600aa);
-    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.9), 5, 0.6, 0, 0); /* Intense, focused glow */
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.9), 5, 0.6, 0, 0); 
 }
 
